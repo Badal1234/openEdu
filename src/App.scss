@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
 #main {
   margin-left: 10%;
 }
@@ -6,4 +11,49 @@
   max-width: 400px !important;
   border-color: red;
   border-width: 5px;
+}
+/////////////////////////////////////////////////
+/////////////// Landing.jsx //////////////////////
+/////////////////////////////////////////////////
+
+/////////////////////////////////////////////////
+/////////////// Navbar.jsx //////////////////////
+/////////////////////////////////////////////////
+.logo {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 1.8rem;
+  color: white !important;
+}
+#navbar {
+  color: white !important;
+  background-color: orange;
+  position: fixed;
+  width: 100%;
+}
+.navlink {
+  width: 500px !important;
+}
+/////////////////////////////////////////////////
+/////////////// Menu.jsx //////////////////////
+/////////////////////////////////////////////////
+.menu {
+  background-color: #1b80c4;
+  background-size: cover;
+  transform: translateX(-20px);
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.menu_box {
+  margin: auto;
+  text-align: center;
+  p {
+    color: white;
+  }
+  .menu_icon {
+    fill: white !important;
+  }
 }

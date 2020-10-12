@@ -2,24 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
+    <div className="mt-5 ml-5">
+      <h1>This is home 1</h1>
     </div>
   );
 };

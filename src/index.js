@@ -6,12 +6,12 @@ import "./index.scss";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { Lines } from "react-preloaders";
+// import { Lines } from "react-preloaders";
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Lines animation="slide" />
+    {/* <Lines animation="slide" /> */}
   </BrowserRouter>,
   document.getElementById("root")
 );
