@@ -3,7 +3,6 @@ import { Modal, Button, Form } from "react-bootstrap";
 
 const Login = (props) => {
   const [index, setIndex] = useState(0);
-
   const SignIn = () => {
     return (
       <div className="signin_body ">

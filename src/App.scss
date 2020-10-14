@@ -15,7 +15,27 @@
 /////////////////////////////////////////////////
 /////////////// Landing.jsx //////////////////////
 /////////////////////////////////////////////////
-
+.landing_home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1505193006/1505193005.jpg);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  .landing_home_heading {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #1b80c4;
+    // background-color: orange;
+    // background-size: cover;
+  }
+}
+.login {
+  color: white !important;
+  border-color: white !important;
+  background-color: transparent !important;
+}
 /////////////////////////////////////////////////
 /////////////// Navbar.jsx //////////////////////
 /////////////////////////////////////////////////
