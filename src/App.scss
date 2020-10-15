@@ -6,35 +6,108 @@
 #main {
   margin-left: 10%;
 }
-.boundss {
-  max-height: 300px !important;
-  max-width: 400px !important;
-  border-color: red;
-  border-width: 5px;
-}
+
 /////////////////////////////////////////////////
 /////////////// Landing.jsx //////////////////////
 /////////////////////////////////////////////////
 .landing_home {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url(https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1505193006/1505193005.jpg);
-  background-size: 100% 90%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  .logo_landing {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 2.3rem;
+    color: white !important;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
   .landing_home_heading {
+    margin-top: 63px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
     letter-spacing: 5px;
-    color: #1b80c4;
-    // background-color: orange;
-    // background-size: cover;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    font-family: sans-serif;
   }
 }
 .login {
   color: white !important;
   border-color: white !important;
   background-color: transparent !important;
+  font-size: 1.3rem !important;
+}
+.landing_heading {
+  color: orange !important;
+  border-bottom: 5px solid #1b80c4;
+  // border-width: 50%;
+}
+.details {
+  letter-spacing: 2px;
+}
+.testimonial {
+  background-color: orange;
+  h1 {
+    font-weight: bold;
+    color: white;
+  }
+  .testimonial_img {
+    border-radius: 50%;
+    // transform: scale(0.7);
+    height: 20rem;
+    width: 20rem;
+  }
+  .testimonial_msg {
+    margin: auto;
+  }
+}
+.whyon {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  h1 {
+    border-bottom: 5px solid #1b80c4;
+    // border-width: 50%;
+  }
+}
+/////////////////////////////////////////////////
+/////////////// Login.jsx //////////////////////
+/////////////////////////////////////////////////
+.verification {
+  .login_heading {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    padding-top: 17px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+.actives {
+  padding-bottom: 3px;
+  border-bottom: 3px solid black;
+  opacity: 1;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+.inactives {
+  opacity: 0.5;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+.enter {
+  background-color: #099cfd !important ;
 }
 /////////////////////////////////////////////////
 /////////////// Navbar.jsx //////////////////////
@@ -43,6 +116,10 @@
   font-family: "Sansita Swashed", cursive;
   font-size: 1.8rem;
   color: white !important;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 #navbar {
   color: white !important;
@@ -76,4 +153,50 @@
   .menu_icon {
     fill: white !important;
   }
+}
+/////////////////////////////////////////////////
+/////////////// Home.jsx //////////////////////
+/////////////////////////////////////////////////
+.home{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 10vh;
+  width: 200vh;
+
+
+}
+
+.question{
+  width: 100vh;
+  margin-left: 5vh;
+}
+
+//chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////
+/////////////// video.jsx //////////////////////
+/////////////////////////////////////////////////
+.video{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.video_card {
+  width: 250px;
 }

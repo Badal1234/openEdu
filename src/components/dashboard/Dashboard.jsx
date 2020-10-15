@@ -14,6 +14,7 @@ import Video from "../video/Video";
 import Undoubt from "../undoubt/Undoubt";
 import Syllabus from "../syllabus/Syllabus";
 import Myid from "../myid/Myid";
+import Chat from '../undoubt/chat';
 
 const Dashboard = () => {
   return (
@@ -28,7 +29,6 @@ const Dashboard = () => {
             <Menu />
           </Col>
           <Col xs={11} className="mt-5">
-            <section className="boundss mt-5 ml-5">
               <Switch>
                 <Route exact path="/dashboard/" component={Home} />
                 <Route
@@ -39,10 +39,10 @@ const Dashboard = () => {
                 <Route path="/dashboard/aboutus" component={Aboutus} />
                 <Route path="/dashboard/videos" component={Video} />
                 <Route path="/dashboard/undoubt" component={Undoubt} />
+                <Route  path="/dashboard/undoubt/chat" component={Chat} />
                 <Route path="/dashboard/syllabus" component={Syllabus} />
                 <Route path="/dashboard/myid" component={Myid} />
               </Switch>
-            </section>
           </Col>
         </Row>
       </Container>

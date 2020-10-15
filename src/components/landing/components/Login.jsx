@@ -22,7 +22,9 @@ const Login = (props) => {
           <Form.Group controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Remember me" />
           </Form.Group>
-          <Button variant="primary">Sign - In</Button>
+          <Button variant="primary" className="enter">
+            Sign - In
+          </Button>
         </Form>
       </div>
     );
@@ -47,7 +49,9 @@ const Login = (props) => {
             <Form.Label>Re-enter Password</Form.Label>
             <Form.Control type="password" placeholder="Re-enter Password" />
           </Form.Group>
-          <Button variant="primary">Sign - Up</Button>
+          <Button variant="primary" className="enter">
+            Sign - Up
+          </Button>
         </Form>
       </div>
     );
@@ -64,22 +68,20 @@ const Login = (props) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Body className="login">
-          <div className="login_heading p-2 h3">
+        <Modal.Body className="verification">
+          <div className="login_heading ">
             <p
               onClick={() => setIndex(0)}
               className={index === 0 ? "actives" : "inactives"}
-              className="pointer"
             >
-              LogIn
+              LOGIN
             </p>
 
             <p
               onClick={() => setIndex(1)}
               className={index === 1 ? "actives" : "inactives"}
-              className="pointer"
             >
-              SignUp
+              SIGNUP
             </p>
           </div>
           <div>{routes[index].route}</div>
