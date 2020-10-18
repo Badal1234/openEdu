@@ -53,31 +53,9 @@ export class Courses extends Component {
   render() {
     let courses = this.generateCourses(this.props.courses)
     return (
-      <Grid fluid>
-        <h2>
-          All Courses
-        </h2>
-        <div className="component-divider-sub"></div>
-
-      <Row >
-        <Col md={8}>
-              <Table responsive striped bordered condensed hover>
-                <thead>
-                  <tr>
-                    <th>Course name</th>
-                    <th>Total material</th>
-                    <th>People enrolled</th>
-                    {this.props.auth.role === 1 && <th>Status</th>}
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {courses}
-                </tbody>
-            </Table>
-          </Col>
-        </Row>
-      </Grid>
+      <div>
+        
+      </div>
     )
   }
 }

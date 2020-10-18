@@ -7,6 +7,7 @@ import {
   ImportContacts,
   AccountBox,
 } from "@material-ui/icons";
+import {role} from '../../var'
 
 const Menu = () => {
   return (
@@ -14,13 +15,13 @@ const Menu = () => {
       <div className="menu_box">
         <Link to="/dashboard/">
           <ImportContacts className="menu_icon" />
-          <p>My Class</p>
+  <p>{role === 'student' ? 'My Class' :'My Documents'}</p>
         </Link>
       </div>
       <div className="menu_box">
         <Link to="/dashboard/videos">
           <VideoLibrary className="menu_icon" />
-          <p>Videos</p>
+          <p>Video</p>
         </Link>
       </div>
       <div className="menu_box">
@@ -32,7 +33,7 @@ const Menu = () => {
       <div className="menu_box">
         <Link to="/dashboard/syllabus">
           <School className="menu_icon" />
-          <p>Syllabus</p>
+  <p>{role === 'student' ? 'Undoubt' : 'Doubt'}</p>
         </Link>
       </div>
       <div className="menu_box">

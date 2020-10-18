@@ -15,6 +15,7 @@ import Undoubt from "../undoubt/Undoubt";
 import Syllabus from "../syllabus/Syllabus";
 import Myid from "../myid/Myid";
 import Chat from '../undoubt/chat';
+import Course from '../course/course'
 
 const Dashboard = () => {
   return (
@@ -42,6 +43,7 @@ const Dashboard = () => {
                 <Route  path="/dashboard/undoubt/chat" component={Chat} />
                 <Route path="/dashboard/syllabus" component={Syllabus} />
                 <Route path="/dashboard/myid" component={Myid} />
+                <Route path= "/dashboard/course" component={Course}/>
               </Switch>
           </Col>
         </Row>

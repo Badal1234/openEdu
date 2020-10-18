@@ -19,7 +19,7 @@ const NavBar = () => {
             to="/dashboard/notification"
             className="text-white"
           >
-            Notifications
+            Notification
           </Nav.Link>
           <Nav.Link
             as={NavLink}

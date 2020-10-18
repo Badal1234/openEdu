@@ -88,7 +88,7 @@ const videolink = [
 const Video = () => {
   return (
     <>
-      <Row className="video">
+      <Row className="video mt-5 ml-5">
         {videolink.map((props) => {
           return (
             <>
