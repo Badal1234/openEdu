@@ -83,6 +83,7 @@ const TeacherHome = () => {
       <div style={{marginBottom:'5vh'}}>
       <Button variant="primary" size="lg" block>
     Upload New Notes
+    
   </Button>
       </div>
       <Row>
